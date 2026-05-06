@@ -1,1 +1,12 @@
 #include <stdio.h>
+int main(){
+    int edad;
+    printf("Introduzca su edad");
+    scanf("%d", &edad);
+    if(edad >=18)
+        printf("eres mayor de edad");
+    else
+        printf("Pa tu casa a ver pocoyo");
+        
+    return 0;
+}
